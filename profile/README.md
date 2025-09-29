@@ -1,7 +1,7 @@
 # 🥯 The Bagel Project
 
 <div align="center">
-  <img src="./Images/The-Bagel.png" alt="The Bagel Project" width="400"/>
+  <img src="./Images/The-Bagel.png" alt="The Bagel Project"/>
   
   ### **Provision Cloud Infrastructure, The Easy Way**
   
