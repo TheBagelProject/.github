@@ -7,7 +7,7 @@
   
   *Making Terraform deployments as simple and delightful as enjoying fresh-baked bread*
   
-  [![GitHub Organization](https://img.shields.io/badge/GitHub-bagel--org-f5cb5c?style=for-the-badge&logo=github)](https://github.com/bagel-org)
+  [![GitHub Organization](https://img.shields.io/badge/GitHub-TheBagelProject-f5cb5c?style=for-the-badge&logo=github)](https://github.com/TheBagelProject)
   [![License](https://img.shields.io/badge/license-MIT-f5cb5c?style=for-the-badge)](LICENSE)
   [![Community](https://img.shields.io/badge/join-community-cd9c20?style=for-the-badge&logo=discord)](https://discord.gg/bagel)
 </div>
@@ -88,9 +88,9 @@ graph LR
 | Cloud Provider | Status | Features |
 |----------------|--------|----------|
 | **AWS** ☁️ | ✅ Fully Supported | EC2, S3, RDS, Lambda, VPC, and more |
-| **Google Cloud** 🌐 | ✅ Fully Supported | Compute Engine, Cloud Storage, Kubernetes Engine |
-| **Azure** 🔷 | ✅ Fully Supported | Virtual Machines, Storage Accounts, App Services |
-| **Multi-Cloud** 🌍 | ✅ Supported | Deploy across multiple providers seamlessly |
+| **Google Cloud** 🌐 | 🚧 Coming Soon | Compute Engine, Cloud Storage, Kubernetes Engine |
+| **Azure** 🔷 | 🚧 Coming Soon | Virtual Machines, Storage Accounts, App Services |
+| **Multi-Cloud** 🌍 | 🚧 Coming Soon | Deploy across multiple providers seamlessly |
 
 </div>
 
@@ -128,7 +128,7 @@ Ready to start baking your infrastructure? Here's how to get started with Bagel:
 ### Quick Start
 ```bash
 # Clone the main repository
-git clone https://github.com/bagel-org/bagel.git
+git clone https://github.com/TheBagelProject/bagel.git
 
 # Navigate to the project
 cd bagel
@@ -149,7 +149,7 @@ We welcome contributions from developers of all skill levels! Whether you're fix
 
 <div align="center">
 
-[![Contributors](https://contrib.rocks/image?repo=bagel-org/bagel)](https://github.com/bagel-org/bagel/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=TheBagelProject/bagel)](https://github.com/TheBagelProject/bagel/graphs/contributors)
 
 </div>
 
@@ -167,10 +167,10 @@ We welcome contributions from developers of all skill levels! Whether you're fix
 
 | Repository | Description | Status |
 |------------|-------------|---------|
-| [**bagel**](https://github.com/bagel-org/bagel) | 🥯 Main platform repository | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-cli**](https://github.com/bagel-org/bagel-cli) | 🛠️ Command line interface | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-docs**](https://github.com/bagel-org/bagel-docs) | 📚 Documentation site | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-examples**](https://github.com/bagel-org/bagel-examples) | 📋 Example Terraform configurations | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**bagel**](https://github.com/TheBagelProject/bagel) | 🥯 Main platform repository | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**bagel-cli**](https://github.com/TheBagelProject/bagel-cli) | 🛠️ Command line interface | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**bagel-docs**](https://github.com/TheBagelProject/bagel-docs) | 📚 Documentation site | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**bagel-examples**](https://github.com/TheBagelProject/bagel-examples) | 📋 Example Terraform configurations | ![Active](https://img.shields.io/badge/status-active-success) |
 
 </div>
 
@@ -180,7 +180,7 @@ We welcome contributions from developers of all skill levels! Whether you're fix
   
   [![Website](https://img.shields.io/badge/Website-bagel.dev-f5cb5c?style=for-the-badge&logo=safari)](https://bagel.dev)
   [![Documentation](https://img.shields.io/badge/Docs-docs.bagel.dev-f2ecdd?style=for-the-badge&logo=gitbook)](https://docs.bagel.dev)
-  [![Discussions](https://img.shields.io/badge/Discussions-Join%20Us-cd9c20?style=for-the-badge&logo=github)](https://github.com/orgs/bagel-org/discussions)
+  [![Discussions](https://img.shields.io/badge/Discussions-Join%20Us-cd9c20?style=for-the-badge&logo=github)](https://github.com/orgs/TheBagelProject/discussions)
   [![Twitter](https://img.shields.io/badge/Twitter-@BagelProject-1da1f2?style=for-the-badge&logo=twitter)](https://twitter.com/BagelProject)
   
 </div>
@@ -189,8 +189,8 @@ We welcome contributions from developers of all skill levels! Whether you're fix
 
 Need help? We're here for you!
 
-- 💬 [GitHub Discussions](https://github.com/orgs/bagel-org/discussions) - Community Q&A
-- 🐛 [Issue Tracker](https://github.com/bagel-org/bagel/issues) - Bug reports and feature requests
+- 💬 [GitHub Discussions](https://github.com/orgs/TheBagelProject/discussions) - Community Q&A
+- 🐛 [Issue Tracker](https://github.com/TheBagelProject/bagel/issues) - Bug reports and feature requests
 - 📧 [Email Support](mailto:support@bagel.dev) - Direct support
 - 📖 [Documentation](https://docs.bagel.dev) - Comprehensive guides and tutorials
 
@@ -208,7 +208,7 @@ The Bagel Project is open source software licensed under the [MIT License](LICEN
   
   *Freshly baked infrastructure, served daily* 🥯
   
-  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=bagel-org.bagel-org)
-  [![GitHub followers](https://img.shields.io/github/followers/bagel-org?style=social)](https://github.com/bagel-org)
+  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=TheBagelProject.TheBagelProject)
+  [![GitHub followers](https://img.shields.io/github/followers/TheBagelProject?style=social)](https://github.com/TheBagelProject)
   
 </div>
