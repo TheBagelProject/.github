@@ -149,7 +149,7 @@ We welcome contributions from developers of all skill levels! Whether you're fix
 
 <div align="center">
 
-[![Contributors](https://contrib.rocks/image?repo=TheBagelProject/bagel)](https://github.com/TheBagelProject/bagel/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=TheBagelProject/official-website)](https://github.com/TheBagelProject/official-website/graphs/contributors)
 
 </div>
 
