@@ -1,15 +1,14 @@
 # 🥯 The Bagel Project
 
 <div align="center">
-  <img src="./Images/TheBagelProject-GHORG.png" alt="The Bagel Project" width="400"/>
+  <img src="./Images/The-Bagel.png" alt="The Bagel Project" width="400"/>
   
   ### **Provision Cloud Infrastructure, The Easy Way**
   
   *Making Terraform deployments as simple and delightful as enjoying fresh-baked bread*
   
   [![GitHub Organization](https://img.shields.io/badge/GitHub-TheBagelProject-f5cb5c?style=for-the-badge&logo=github)](https://github.com/TheBagelProject)
-  [![License](https://img.shields.io/badge/license-MIT-f5cb5c?style=for-the-badge)](LICENSE)
-  [![Community](https://img.shields.io/badge/join-community-cd9c20?style=for-the-badge&logo=discord)](https://discord.gg/bagel)
+  [![License](https://img.shields.io/badge/license-AGPL--3.0-f5cb5c?style=for-the-badge)](LICENSE)
 </div>
 
 ---
@@ -117,7 +116,7 @@ Just like a master baker perfecting their craft, we've carefully designed each f
 </div>
 
 <div align="center">
-  <img src="./Images/4.png" alt="Artisanal Quality" width="200"/>
+  <img src="./Images/Bagel-Logo.png" alt="Artisanal Quality" width="200"/>
   <p><em>Artisanal quality, industrial strength</em></p>
 </div>
 
@@ -189,14 +188,14 @@ We welcome contributions from developers of all skill levels! Whether you're fix
 
 Need help? We're here for you!
 
-- 💬 [GitHub Discussions](https://github.com/orgs/TheBagelProject/discussions) - Community Q&A
+- 💬 [GitHub Discussions](https://github.com/orgs/TheBagelProject/discussions) - Development Q&A
 - 🐛 [Issue Tracker](https://github.com/TheBagelProject/bagel/issues) - Bug reports and feature requests
 - 📧 [Email Support](mailto:support@bagel.dev) - Direct support
 - 📖 [Documentation](https://docs.bagel.dev) - Comprehensive guides and tutorials
 
 ## 📜 License
 
-The Bagel Project is open source software licensed under the [MIT License](LICENSE).
+The Bagel Project is open source software licensed under the [AGPL-3.0 License](LICENSE).
 
 ---
 
@@ -204,7 +203,7 @@ The Bagel Project is open source software licensed under the [MIT License](LICEN
   
   **Built with ❤️ by the open source community**
   
-  <img src="./Images/5.png" alt="Community" width="100"/>
+  <img src="./Images/Bagel-Logo.png" alt="Community" width="100"/>
   
   *Freshly baked infrastructure, served daily* 🥯
   
