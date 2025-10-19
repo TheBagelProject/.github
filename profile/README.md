@@ -238,6 +238,7 @@ In the meantime, feel free to explore the codebase and [open an issue](https://g
 |------------|-------------|---------|
 | [**bagel-ui**](https://github.com/TheBagelProject/bagel-ui) | 🎨 Frontend - Modern React/Next.js UI with TypeScript | ![Active](https://img.shields.io/badge/status-active-success) |
 | [**bagel-backend**](https://github.com/TheBagelProject/bagel-backend) | ⚙️ Backend - Express.js API server with MongoDB integration | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**sample-terraform-files**](https://github.com/TheBagelProject/sample-terraform-files) | 📋 Sample Terraform configurations for users to test out | ![Active](https://img.shields.io/badge/status-active-success) |
 
 </div>
 
