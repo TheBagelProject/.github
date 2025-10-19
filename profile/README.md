@@ -1,26 +1,38 @@
-# 🥯 The Bagel Project
-
 <div align="center">
-  <img src="./Images/The-Bagel.png" alt="The Bagel Project"/>
-  
-  ### **Provision Cloud Infrastructure, The Easy Way**
-  
-  *Making Terraform deployments as simple and delightful as enjoying fresh-baked bread*
-  
-  [![GitHub Organization](https://img.shields.io/badge/GitHub-TheBagelProject-f5cb5c?style=for-the-badge&logo=github)](https://github.com/TheBagelProject)
-  [![License](https://img.shields.io/badge/license-AGPL--3.0-f5cb5c?style=for-the-badge)](LICENSE)
+
+# 🥯 Bagel
+
+### Open-Source Self-Service Terraform Platform
+
+**The easiest way for developers to manage Terraform infrastructure with confidence**
+
+[![Terraform](https://img.shields.io/badge/Terraform-Supported-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge)](LICENSE)
+[![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-yellow?style=for-the-badge)](https://github.com/TheBagelProject)
+
+![Bagel](./Images/bagel.png)
+
+[Features](#-key-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Support](#-support)
+
 </div>
 
 ---
 
-## 🌟 What is The Bagel Project?
+## 🌟 What is Bagel?
 
-The Bagel Project is an **open-source self-service platform** that transforms the way developers deploy cloud infrastructure. Built with the warmth and attention to detail of a European bakery, Bagel makes Terraform deployments as simple and delightful as enjoying fresh-baked bread.
+**Bagel is an open-source, self-service platform that makes Terraform-based infrastructure provisioning simple, fast, and intuitive - built for developers who just want to ship.**
 
-<div align="center">
-  <img src="./Images/Launching Soon.png" alt="Bagel Dashboard Preview" width="600"/>
-  <p><em>Beautiful, intuitive dashboard that makes infrastructure management effortless</em></p>
-</div>
+Empower your team to deploy infrastructure seamlessly with minimal dependencies. Simple, intuitive, and powerful.
+
+### 🎯 Perfect For:
+- **Developers** who want to own their infrastructure without the complexity
+- **Teams** seeking self-service infrastructure provisioning
+- **Startups** transitioning to Infrastructure as Code (IaC)
+- **Organizations** looking to reduce infrastructure deployment bottlenecks
+
+---
+
+---
 
 ## ✨ Key Features
 
@@ -28,186 +40,239 @@ The Bagel Project is an **open-source self-service platform** that transforms th
 <tr>
 <td width="50%">
 
-### 🔄 **Self-Service Deployment**
-Deploy infrastructure independently with no DevOps bottlenecks. Simple, intuitive, and powerful.
+### � **Self-Service Deployments**
+Deploy infrastructure with minimal clicks. No manual Terraform commands or waiting on DevOps teams.
 
-### 🔗 **GitHub Integration** 
-Seamlessly connect your repositories and trigger deployments directly from your existing workflow.
-
-### ⚡ **Real-time Monitoring**
-Live deployment logs and status tracking to keep you informed every step of the way.
+### 🔗 **GitHub Integration**
+Seamlessly connect your repositories and manage infrastructure code directly from your Git workflows.
 
 </td>
 <td width="50%">
 
-### 🎨 **User-Friendly UI**
-Beautiful, artisanal interface that makes complex infrastructure management feel effortless.
+### 📊 **Live Deployment Logs**
+Track deployment progress and view execution logs in real-time as your infrastructure is provisioned.
 
-### 🐳 **Containerized Execution**
-Secure, isolated Terraform runs in containerized environments for reliability and safety.
+### 🌍 **AWS Support**
+Full support for AWS infrastructure with multi-cloud support coming soon.
 
-### 👥 **Open-Source Community**
-Built by developers, for developers. Join our growing community of infrastructure enthusiasts.
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📦 **Project & Space Organization**
+Organize your infrastructure into projects and spaces for better management and team collaboration.
+
+### � **Deployment History**
+Complete audit trail of all deployments with detailed logs and status tracking.
+
+</td>
+<td width="50%">
+
+### 🎨 **Developer-First UI**
+Clean, intuitive interface built with Next.js and React - designed for developers by developers.
+
+### ⚡ **Minimal Dependencies**
+Get started quickly without complex setup. Just Docker, and you're ready to go.
 
 </td>
 </tr>
 </table>
 
-## 🚀 How It Works
+---
 
-<div align="center">
-  
-```mermaid
-graph LR
-    A[📁 Push Code] --> B[🔗 Connect Repo] --> C[🚀 Deploy] --> D[📊 Monitor]
-    
-    style A fill:#f5cb5c,stroke:#cd9c20,stroke-width:2px
-    style B fill:#f5cb5c,stroke:#cd9c20,stroke-width:2px
-    style C fill:#f5cb5c,stroke:#cd9c20,stroke-width:2px
-    style D fill:#f5cb5c,stroke:#cd9c20,stroke-width:2px
-```
+---
 
-</div>
+## 🚀 Quick Start
 
-| Step | Action | Description |
-|------|--------|-------------|
-| **1** | 📁 **Push Terraform Code** | Push your Terraform infrastructure code to your GitHub repository |
-| **2** | 🔗 **Connect Repository** | Connect your GitHub repo to Bagel's intuitive platform |  
-| **3** | 🚀 **Deploy with One Click** | Deploy your infrastructure seamlessly with our user-friendly interface |
-| **4** | 📊 **Monitor & Manage** | Track deployments in real-time with comprehensive logging and project management |
+Get Bagel up and running in less than 2 minutes!
 
-<div align="center">
-  <em>Four simple steps to get from code to cloud ☁️</em>
-</div>
+### Prerequisites
+- [Docker](https://docs.docker.com/get-docker/) (version 20.10+)
+- [Docker Compose](https://docs.docker.com/compose/install/) (version 2.0+)
+- 4GB RAM minimum
+- Internet connection for pulling images
 
-## 🏗️ Supported Platforms
+### 🏃 Start Bagel
 
-<div align="center">
-
-| Cloud Provider | Status | Features |
-|----------------|--------|----------|
-| **AWS** ☁️ | ✅ Fully Supported | EC2, S3, RDS, Lambda, VPC, and more |
-| **Google Cloud** 🌐 | 🚧 Coming Soon | Compute Engine, Cloud Storage, Kubernetes Engine |
-| **Azure** 🔷 | 🚧 Coming Soon | Virtual Machines, Storage Accounts, App Services |
-| **Multi-Cloud** 🌍 | 🚧 Coming Soon | Deploy across multiple providers seamlessly |
-
-</div>
-
-## 📊 Community & Project Stats
-
-<div align="center">
-  
-  | 🌟 Stars | 🍴 Forks | 🚀 Deployments | 👥 Contributors |
-  |----------|----------|-----------------|------------------|
-  | **2.3k+** | **400+** | **10k+** | **50+** |
-  
-</div>
-
-## 🍞 Why "Bagel"?
-
-Just like a master baker perfecting their craft, we've carefully designed each feature to make infrastructure deployment a delightful experience. Our philosophy:
-
-<div align="center">
-  
-> *"Like sharing a recipe that's been in the family for generations, we believe great infrastructure tools should be available to everyone."*
-> 
-> — The Bagel Team
-
-</div>
-
-<div align="center">
-  <img src="./Images/Bagel-Logo.png" alt="Artisanal Quality" width="200"/>
-  <p><em>Artisanal quality, industrial strength</em></p>
-</div>
-
-## 🚀 Getting Started
-
-Ready to start baking your infrastructure? Here's how to get started with Bagel:
-
-### Quick Start
 ```bash
-# Clone the main repository
-git clone https://github.com/TheBagelProject/bagel.git
+# Clone the repository
+git clone https://github.com/TheBagelProject/bagel-backend
+cd bagel-backend
 
-# Navigate to the project
-cd bagel
+# Start all services
+docker-compose up -d
 
-# Follow the setup instructions
-npm install && npm start
+# Check service status
+docker-compose ps
 ```
 
-### 📚 Documentation
-- 📖 [**Getting Started Guide**](https://docs.bagel.dev/getting-started)
-- 🏗️ [**Architecture Overview**](https://docs.bagel.dev/architecture)
-- 🔧 [**API Reference**](https://docs.bagel.dev/api)
-- 🎯 [**Best Practices**](https://docs.bagel.dev/best-practices)
+That's it! 🎉 Bagel is now running.
 
-## 🤝 Contributing
+### 🌐 Access Your Platform
 
-We welcome contributions from developers of all skill levels! Whether you're fixing bugs, adding features, or improving documentation, your help makes Bagel better for everyone.
+| Service | URL | Description |
+|---------|-----|-------------|
+| **UI** | `localhost:3000` | Main web interface |
+| **API** | `localhost:5000` | Backend REST API |
+| **Database** | `localhost:27017` | MongoDB (internal) |
 
-<div align="center">
+### � Stop Bagel
 
-[![Contributors](https://contrib.rocks/image?repo=TheBagelProject/official-website)](https://github.com/TheBagelProject/official-website/graphs/contributors)
+```bash
+docker-compose down
+```
 
-</div>
+---
 
-### How to Contribute
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch
-3. 💻 Make your changes
-4. 🧪 Add tests if needed
-5. 📝 Update documentation
-6. 🚀 Submit a pull request
+---
 
-## 🏆 Repositories
+## 🏗️ Architecture
 
-<div align="center">
+Bagel consists of four main components running as Docker containers:
 
-| Repository | Description | Status |
-|------------|-------------|---------|
-| [**bagel**](https://github.com/TheBagelProject/bagel) | 🥯 Main platform repository | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-cli**](https://github.com/TheBagelProject/bagel-cli) | 🛠️ Command line interface | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-docs**](https://github.com/TheBagelProject/bagel-docs) | 📚 Documentation site | ![Active](https://img.shields.io/badge/status-active-success) |
-| [**bagel-examples**](https://github.com/TheBagelProject/bagel-examples) | 📋 Example Terraform configurations | ![Active](https://img.shields.io/badge/status-active-success) |
+```
+┌─────────────────────────────────────────────────────────-┐
+│                    Bagel Platform                        │
+├──────────────┬──────────────┬──────────────┬───────────--┤
+│   Frontend   │   Backend    │    Server    │  Database   │
+│   (Next.js)  │  (Node.js)   │  (Terraform) │  (MongoDB)  │
+│              │              │   + AWS CLI  │             │
+│   Port 3000  │   Port 5000  │              │ Port 27017  │
+└──────────────┴──────────────┴──────────────┴───────────--┘
+```
 
-</div>
+### Components
 
-## 🌐 Connect With Us
+- **🎨 bagel-ui**: Modern React/Next.js frontend with TypeScript
+- **⚙️ bagel-backend**: Express.js API server with MongoDB integration
+- **🛠️ bagel-server**: Terraform execution environment with AWS CLI
+- **💾 mongo-bagel**: MongoDB database for storing configurations and state
 
-<div align="center">
-  
-  [![Website](https://img.shields.io/badge/Website-bagel.dev-f5cb5c?style=for-the-badge&logo=safari)](https://bagel.dev)
-  [![Documentation](https://img.shields.io/badge/Docs-docs.bagel.dev-f2ecdd?style=for-the-badge&logo=gitbook)](https://docs.bagel.dev)
-  [![Discussions](https://img.shields.io/badge/Discussions-Join%20Us-cd9c20?style=for-the-badge&logo=github)](https://github.com/orgs/TheBagelProject/discussions)
-  [![Twitter](https://img.shields.io/badge/Twitter-@BagelProject-1da1f2?style=for-the-badge&logo=twitter)](https://twitter.com/BagelProject)
-  
-</div>
+---
 
-## 📧 Support
+### Configuration
 
-Need help? We're here for you!
+#### Environment Variables
 
-- 💬 [GitHub Discussions](https://github.com/orgs/TheBagelProject/discussions) - Development Q&A
-- 🐛 [Issue Tracker](https://github.com/TheBagelProject/bagel/issues) - Bug reports and feature requests
-- 📧 [Email Support](mailto:support@bagel.dev) - Direct support
-- 📖 [Documentation](https://docs.bagel.dev) - Comprehensive guides and tutorials
+You can customize Bagel by editing the `docker-compose.yml` file:
 
-## 📜 License
+```yaml
+environment:
+  - NODE_ENV=production
+  - PORT=5000
+  - MONGO_URI=mongodb://mongo-bagel:27017/BagelDB
+  # Add your custom configurations here
+```
 
-The Bagel Project is open source software licensed under the [AGPL-3.0 License](LICENSE).
+#### Ports
+
+Default ports can be changed in `docker-compose.yml`:
+- Frontend: `3000` → `"YOUR_PORT:3000"`
+- Backend: `5000` → `"YOUR_PORT:5000"`
+- MongoDB: `27017` → `"YOUR_PORT:27017"`
+
+---
+
+## 🔧 Advanced Usage
+
+### View Logs
+
+```bash
+# All services
+docker-compose logs -f
+
+# Specific service
+docker-compose logs -f bagel-backend
+docker-compose logs -f bagel-ui
+```
+
+### Restart Services
+
+```bash
+# Restart all services
+docker-compose restart
+
+# Restart specific service
+docker-compose restart bagel-backend
+```
+
+### Update to Latest Version
+
+```bash
+# Pull latest images
+docker-compose pull
+
+# Restart with new images
+docker-compose up -d
+```
+
+---
+
+## 🛠️ Development
+
+Want to contribute or customize Bagel? 
+
+**Development and contribution guidelines coming soon!** 🚀
+
+Stay tuned for:
+- Backend development setup guide
+- Frontend development guide  
+- Contribution guidelines
+- Code of conduct
+
+In the meantime, feel free to explore the codebase and [open an issue](https://github.com/TheBagelProject/bagel-backend/issues) with any questions!
+
+---
+
+---
+
+### � Community
+- **[Discord Community](https://discord.gg/bagel)** - Coming Soon! 🚀
+- **[GitHub Discussions](https://github.com/orgs/TheBagelProject/discussions)** - Ask questions and share ideas
+
+### 🐛 Found a Bug?
+[Report an issue](https://github.com/TheBagelProject/bagel-backend/issues) and we'll get it fixed!
+
+---
+
+## 🗺️ Roadmap
+
+- [x] AWS Infrastructure Support
+- [x] GitHub Integration
+- [x] Real-time Deployment Logs
+- [x] Self-Service Project Management
+- [ ] Efficient Statefile Management
+- [ ] Multi-Cloud Support (Azure & GCP) - **Coming Soon**
+- [ ] Deployment Rollback
+- [ ] RBAC (Role-Based Access Control)
+- [ ] MCP Servers
+- [ ] Public APIs
+
+---
+
+## � License
+
+Bagel is released under the [AGPL 3.0 License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+Built with ❤️ using:
+- [Terraform](https://www.terraform.io/) - Infrastructure as Code
+- [Next.js](https://nextjs.org/) - React Framework
+- [Express.js](https://expressjs.com/) - Backend Framework
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Docker](https://www.docker.com/) - Containerization
 
 ---
 
 <div align="center">
-  
-  **Built with ❤️ by the open source community**
-  
-  <img src="./Images/Bagel-Logo.png" alt="Community" width="100"/>
-  
-  *Freshly baked infrastructure, served daily* 🥯
-  
-  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=TheBagelProject.TheBagelProject)
-  [![GitHub followers](https://img.shields.io/github/followers/TheBagelProject?style=social)](https://github.com/TheBagelProject)
-  
+
+**⭐ Star us on GitHub - it helps!**
+
+Made with 🥯 by the Bagel Team
+
+[Website](https://thebagelproject.dev)
 </div>
