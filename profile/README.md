@@ -149,8 +149,8 @@ Bagel consists of four main components running as Docker containers:
 
 ### Components
 
-- **🎨 bagel-ui**: Modern React/Next.js frontend with TypeScript
-- **⚙️ bagel-backend**: Express.js API server with MongoDB integration
+- **🎨 [bagel-ui](https://github.com/TheBagelProject/bagel-ui)**: Modern React/Next.js frontend with TypeScript
+- **⚙️ [bagel-backend](https://github.com/TheBagelProject/bagel-backend)**: Express.js API server with MongoDB integration
 - **🛠️ bagel-server**: Terraform execution environment with AWS CLI
 - **💾 mongo-bagel**: MongoDB database for storing configurations and state
 
@@ -230,6 +230,17 @@ In the meantime, feel free to explore the codebase and [open an issue](https://g
 
 ---
 
+## 🏆 Repositories
+
+<div align="center">
+
+| Repository | Description | Status |
+|------------|-------------|---------|
+| [**bagel-ui**](https://github.com/TheBagelProject/bagel-ui) | 🎨 Frontend - Modern React/Next.js UI with TypeScript | ![Active](https://img.shields.io/badge/status-active-success) |
+| [**bagel-backend**](https://github.com/TheBagelProject/bagel-backend) | ⚙️ Backend - Express.js API server with MongoDB integration | ![Active](https://img.shields.io/badge/status-active-success) |
+
+</div>
+
 ---
 
 ### � Community
@@ -243,22 +254,82 @@ In the meantime, feel free to explore the codebase and [open an issue](https://g
 
 ## 🗺️ Roadmap
 
-- [x] AWS Infrastructure Support
-- [x] GitHub Integration
-- [x] Real-time Deployment Logs
-- [x] Self-Service Project Management
-- [ ] Efficient Statefile Management
-- [ ] Multi-Cloud Support (Azure & GCP) - **Coming Soon**
-- [ ] Deployment Rollback
-- [ ] RBAC (Role-Based Access Control)
-- [ ] MCP Servers
-- [ ] Public APIs
+### ✅ Available Now
+
+<table>
+<tr>
+<td width="50%">
+
+**🌍 AWS Infrastructure Support**  
+Full support for provisioning AWS resources with Terraform
+
+**🔗 GitHub Integration**  
+Seamless connection with your GitHub repositories
+
+</td>
+<td width="50%">
+
+**📊 Real-time Deployment Logs**  
+Live tracking of infrastructure deployment progress
+
+**🚀 Self-Service Project Management**  
+Organize and manage infrastructure projects independently
+
+</td>
+</tr>
+</table>
+
+### 🚀 Coming Soon
+
+<table>
+<tr>
+<td width="50%">
+
+**💾 Efficient Statefile Management**  
+Advanced Terraform state management and versioning
+
+**☁️ Multi-Cloud Support**  
+Azure and Google Cloud Platform integration
+
+**⏮️ Deployment Rollback**  
+Safely revert infrastructure changes with one click
+
+</td>
+<td width="50%">
+
+**🔐 RBAC (Role-Based Access Control)**  
+Fine-grained permissions and team access management
+
+**🔌 MCP Servers**  
+Model Context Protocol server integration
+
+**🌐 Public APIs**  
+RESTful APIs for external integrations and automation
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <em>Have a feature request? <a href="https://github.com/TheBagelProject/bagel-backend/issues">Let us know!</a></em>
+</div>
 
 ---
 
-## � License
+## 📄 License
 
 Bagel is released under the [AGPL 3.0 License](LICENSE).
+
+---
+
+## 🌐 Official Website
+
+<div align="center">
+  <a href="https://thebagelproject.dev">
+    <img src="./Images/bagel.png" alt="Bagel Official Website" width="800"/>
+  </a>
+  <p><em>Visit our official website at <a href="https://thebagelproject.dev">thebagelproject.dev</a></em></p>
+</div>
 
 ---
 
