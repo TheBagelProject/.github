@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./Images/Bagel-Logo.png" alt="Bagel Logo" width="200"/>
+
 # 🥯 Bagel
 
 ### Open-Source Self-Service Terraform Platform
@@ -10,9 +12,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge)](LICENSE)
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-yellow?style=for-the-badge)](https://github.com/TheBagelProject)
 
-![Bagel](./Images/bagel.png)
-
-[Features](#-key-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Support](#-support)
+[Features](#-key-features) • [Quick Start](#-quick-start) • [Architecture](#-architecture) • [Roadmap](#-roadmap)
 
 </div>
 
@@ -23,6 +23,11 @@
 **Bagel is an open-source, self-service platform that makes Terraform-based infrastructure provisioning simple, fast, and intuitive - built for developers who just want to ship.**
 
 Empower your team to deploy infrastructure seamlessly with minimal dependencies. Simple, intuitive, and powerful.
+
+<div align="center">
+  <img src="./Images/The-Bagel.png" alt="Bagel Platform Preview" width="700"/>
+  <p><em>Intuitive interface designed for developers</em></p>
+</div>
 
 ### 🎯 Perfect For:
 - **Developers** who want to own their infrastructure without the complexity
@@ -270,9 +275,12 @@ Built with ❤️ using:
 
 <div align="center">
 
+<img src="./Images/Bagel-Logo.png" alt="Bagel" width="120"/>
+
 **⭐ Star us on GitHub - it helps!**
 
 Made with 🥯 by the Bagel Team
 
-[Website](https://thebagelproject.dev)
+[Website](https://thebagelproject.dev) • [GitHub](https://github.com/TheBagelProject)
+
 </div>
